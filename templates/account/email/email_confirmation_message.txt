@@ -1,0 +1,13 @@
+{% load userprofile %}{% make_confirm_url as the_link %}
+{% load account %}{% user_display user as user_display %}{% load i18n %}
+{% comment %} {% autoescape off %}{% blocktrans with site_name=current_site.namesite_domain=current_site.domain %} {% endcomment %}
+Hello from PURVIEW SERVICES,
+
+You're receiving this e-mail because user {{ user_display }} has given yours as an e-mail address to connect their account.
+
+To confirm this is correct, go to {{the_link}}
+{% comment %} {% endblocktrans %}{% endautoescape %}
+{% blocktrans with site_name=current_site.name site_domain=current_site.domain %}Thank you from {{ site_name }} Dev Team !
+{{ site_domain }}{% endblocktrans %} {% endcomment %}
+
+Thank you from PURVIEW SERVICES !

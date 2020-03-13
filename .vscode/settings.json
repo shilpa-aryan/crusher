@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+{
+    "python.pythonPath": ".venv\\Scripts\\python.exe",
+    "python.formatting.provider": "black"
+=======
+{
+    "python.pythonPath": ".venv\\Scripts\\python.exe"
+>>>>>>> feb6b8f330d68ed40fee7a3eda98c0d5306eb876
+}

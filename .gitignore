@@ -1,0 +1,7 @@
+.venv/ 
+**migrations/ 
+**.pyc 
+staticfiles/
+media/
+db.sqlite3
+*.sqlite3
